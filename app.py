@@ -89,6 +89,7 @@ st.markdown(
 
 st.markdown('<a id="inicio"> </a><br><br>', unsafe_allow_html=True)
 st.image('img/encabezado.png')
+st.caption('Desarrollado por Julián David Estupiñán: jesupinant@gmail.com')
 
 
 #################################################################
@@ -311,7 +312,7 @@ with st.container(border=True):
         st.plotly_chart(fig, use_container_width=True)
 
 
-#######################################################################
+########################################################################
 #   GRÁFICOS TORTAS ENERGÍA ACTIVA Y REACTIVA kWh POR DEPARTAMENTO    #
 #######################################################################
 st.markdown('<a id="tortas"> </a><br>', unsafe_allow_html=True)
