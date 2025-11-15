@@ -71,7 +71,8 @@ delta_22 = (tot_ac_22 - tot_ac_21)/tot_ac_21*100
 ############# Visualización
 st.set_page_config(
     page_title='Zonas No Interconectadas',
-    layout='wide',
+    layout='centered',
+    initial_sidebar_state='collapsed'
     )
 
 st.markdown(
